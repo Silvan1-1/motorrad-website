@@ -1,0 +1,251 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+	font-family: "Montserrat", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	color: $primary-color;
+	font-weight: 600;
+	line-height: 1;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+p {
+	font-size: 15px;
+	color: #6a7080;
+	line-height: 1.8;
+	font-weight: 400;
+}
+
+img {
+	max-width: 100%;
+}
+
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+	outline: none;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+ul,
+ol {
+	padding: 0;
+	margin: 0;
+}
+
+/*------------------
+Header section
+ ---------------------*/
+
+.header-section {
+	padding-left: 55px;
+	padding-right: 72px;
+}
+
+.site-logo {
+	display: inline-block;
+	padding: 0;
+	padding: 44px 15px;
+}
+
+.header-right {
+	float: right;
+	padding: 44px 0;
+	margin-left: 130px;
+}
+
+.header-right .hr-btn {
+	display: inline-block;
+	color: darkgrey;
+}
+
+.header-right .user-panel {
+	display: inline-block;
+}
+
+.header-right .user-panel a {
+	font-size: 16px;
+	color: #ffffff;
+	margin: 0 10px;
+}
+
+.header-right .user-panel .register {
+	color: #fc0254;
+	margin-right: 0;
+}
+
+.header-right span {
+	color: #fff;
+	display: inline-block;
+	padding-left: 9px;
+}
+
+.main-menu {
+	list-style: none;
+	float: right;
+	text-decoration: none;
+}
+
+
+.main-menu li {
+	display: inline-block;
+	position: relative;
+}
+
+.main-menu li a {
+	display: block;
+	font-size: 16px;
+	color: #ffffff;
+	margin: 44px 5px;
+	margin-left: 30px;
+	background-color: darkgrey;
+	padding: 8px;
+	border-radius: 6px;
+	text-decoration: none;
+}
+
+.main-menu li a:hover {
+	background-color: gold;
+}
+
+.main-menu li:first-child a {
+	margin-left: 0;
+}
+
+.slicknav_menu {
+	display: none;
+}
+
+/* ----------------
+Content
+ -------------------*/
+.titel-startseite h1  {
+	position: absolute;
+	top: 220px;
+	left: 30px;
+	color: darkgrey;
+	font-size: 100px;
+}
+
+.titel-inhalt h1 {
+	position: realtive;
+	margin-left: 70px;
+	color: darkgrey;
+	font-size: 100px;
+}
+
+ .column-inhalt {
+	 margin-left: 80px;
+	 float: left;
+	 width: 40%;
+	 margin-bottom: 50px;
+ }
+
+ .column-index {
+	 margin-top: 70px;
+	 margin-left: 60px;
+	 margin-bottom: 50px;
+	 float: left;
+	 width: 27%;
+ }
+
+.column-bild {
+	float: right;
+	margin-right: 80px;
+}
+
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+
+ .anmelden {
+	 float: left;
+	 width: 40%;
+ }
+
+ .mehr-erfahren {
+	font-weight: bold;
+	margin-left: 30px;
+ }
+
+.mehr-erfahren button {
+	margin-top: 5px;
+	margin-bottom: 50px;
+	margin-left: 30px;
+	font-size: 15px;
+	color: #6a7080;
+	line-height: 1.8;
+	font-weight: 400;
+}
+
+/* ----------------
+Formular
+ -------------------*/
+.anmelden {
+	line-height: 1.5;
+	float: right;
+	width: 40%;
+	margin-top: -580px;
+}
+
+.registrieren {
+	line-height: 1.5;
+	margin-left: 70px;
+	width: 40%;
+	margin-top: 40px;
+ }
+
+ /* ----------------
+ Memberbereich
+  -------------------*/
+.div {
+	background:#98bf21;
+	height:100px;
+	width:200px;
+	position: absolute;
+}
+
+/* ----------------
+Footer
+ -------------------*/
+.footer-section {
+	background: darkgrey;
+	padding: 30px 0 40px;
+  height: 30px;
+}
+
+.footer-widget h2 {
+	font-size: 12px;
+	color: #fff;
+	text-transform: uppercase;
+	width: 10%;
+	float: left;
+	margin-left: 50px;
+	margin-right: 15px;
+}

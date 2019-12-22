@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<title>Motorradwebsite</title>
+	<meta charset="UTF-8">
+
+	<!-- Favicon -->
+	<link href="img/logos/motorrad-favicon.jpg" rel="shortcut icon"/>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="css/style.css"/>
+
+	<linke rel="script" href="http://portfolio.tannat.ch/klausener/run.php"/>
+</head>
+
+<body style="margin: 0px;">
+
+	<!-- Header section -->
+	<header class="header-section clearfix">
+		<a href="index.html" class="site-logo">
+			<img src="img/logos/motorradlogo.png" alt="Motorradlogo" width="100px">
+		</a>
+		<ul class="main-menu">
+			<li><a href="Inhalt.html">Inhaltsseite</a></li>
+			<li><a href="Member.html">Member</a></li>
+		</ul>
+	</header>
+	<!-- Header section end -->
+
+	<!-- Content section -->
+	<div class="titel-inhalt">
+		<h1>Member</h1>
+	</div>
+
+<div class="registrieren">
+<h2>Registrieren</h2>
+<br> <br>
+	<form action="http://portfolio.tannat.ch/klausener/run.php" method="get">
+		Anrede:
+	  <input type="radio" name="gender" value="male" checked> Herr
+	  <input type="radio" name="gender" value="female"> Frau
+		<input type="radio" name="gender" value="andere"> Andere <br> <br>
+
+		Vorname:
+		<input type="text" name="firstname" placeholder="Max">
+		<br>
+		Nachname*:
+		<input type="text" name="lastname" placeholder="Muster" required>
+		<br>
+		E-Mail*:
+		<input type="email" name="email" placeholder="Ihre E-Mail Adresse" required>
+		<br> <br>
+
+		Wie sind sie auf uns gestossen?<br>
+		  <input type="checkbox" name="extra" id="c1" value="newsletter">
+		    <label for="c1">über den Newsletter</label><br>
+		  <input type="checkbox" name="extra" id="c2" value="plakat">
+		    <label for="c2">durch unsere Plakatwerbung</label><br>
+		  <input type="checkbox" name="extra" id="c3" value="anderes">
+		    <label for="c3">anderes</label> <br> <br>
+
+   Möchten sie uns noch zusätzlich was mitteilen? <br>
+			  <textarea name="text" rows="15" cols="50" maxlength="3000">
+			  </textarea> <br> <br>
+				<input type="submit" value="Abschicken">
+				<br> <br>
+			</form>
+</div>
+
+<div class="anmelden">
+	<h2>Anmelden</h2>
+	<br> <br>
+	<form action="Memberbereich.html">
+	  Benutzername:
+	  <input type="text" name="username" required pattern="Motorradfahrer">
+	  <br> <br>
+		Passwort:
+		<input type="password" required pattern="fahrer123">
+  	<br> <br>
+		<input type="submit" value="Abschicken">
+	</form>
+</div>
+
+	<!-- Footer section -->
+	<footer class="footer-section">
+				<div class="footer-widget">
+					<h2>Silvan Klausener</h2>
+				</div>
+			</div>
+				<div class="footer-widget">
+					<h2>ME17d</h2>
+				</div>
+			</div>
+				<div class="footer-widget">
+					<h2>Motorrad-Website</h2>
+				</div>
+	</footer>
+
+	</body>
+</html>
