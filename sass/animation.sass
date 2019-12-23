@@ -1,9 +1,42 @@
-$primary-color: #0a183d
-$secondary-color: black
+/* Teil des Styles mit SASS*/
 
+/* Variabeln */
+$font-stack:    white;
+$primary-color: black;
+$bgcolor: darkgrey;
+
+/* Mixins */
 @mixin transform($property) {
   -webkit-transform: $property;
   -ms-transform: $property;
   transform: $property;
+  margin: 10%;
 }
-.box { @include transform(rotate(30deg)); }
+
+/* Extended */
+.button  {
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.abschicken  {
+  @extend .button;
+  background-color: darkgrey;
+  color: white;
+}
+
+/* Nesting */
+body {
+  background-color: $bgcolor;
+  color: $primary-color;
+}
+
+nav {
+  ul {
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+  }
+}
